@@ -1,1 +1,1 @@
-# Programing-Discord_bot
+# Programming-Discord_bot
