@@ -1,0 +1,17 @@
+from _ast import Break, While
+
+Whiletrue: print()
+print("\tYour password is shit, change it")
+print()
+
+print("Hello Again")
+print()
+cont = input("Do you want to change your password yes/no > ")
+
+while cont.lower() not in ("yes", "no"):
+    cont = input("Another one? yes/no > ")
+
+if cont == "no":
+    print()
+    print("\tfuck you for not using the companies software, you little Bitch.")
+    Break
